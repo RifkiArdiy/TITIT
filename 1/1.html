@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js/bootstrap.bundle.js"></script>
+    <div class="border border-dark">
+        <center>
+            <div class="row w-75 mt-3">
+                <h1>FORM VALIDATION</h1>
+            </div>
+        </center>
+        <div class="position-relative">
+            <form action="result.html" method="post">
+                <div class="input-group flex-nowrap mb-4">
+                </div>
+                <div class="form-group row d-flex">
+                    <div class="col-sm-6">
+                        <label for="namaDepan" class="form-label">First Name</label>
+                        <div class="col-sm-15">
+                            <input type="text" class="form-control" id="namaDepan" placeholder="ASHRUL" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="namaBelakang" class="form-label">Last Name</label>
+                        <div class="col-sm-15">
+                            <input type="text" class="form-control" id="namaBelakang" placeholder="RIFKI" required>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="form-group row d-flex mt-4">
+                    <div class="col-sm-6">
+                        <label for="email" class="col-form-label">Email</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="addon-wrapping">@</span>
+                            <input type="email" class="form-control" id="email" placeholder="ses@gmail.com" name="email"
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row d-flex mt-4">
+                    <div class="col-sm-6">
+                        <label for="namaDepan" class="form-label">Phone Number</label>
+                        <div>
+                            <input type="number" class="form-control" id="numberPhone" placeholder="089859512898"
+                                required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="namaDepan" class="form-label">Date</label>
+                        <div class="col-sm-15">
+                            <input type="date" class="form-control" id="date" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row d-flex mt-4">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="col-sm-7 col-form-label">Select The Category :</label>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                                value="option1">
+                            <label class="form-check-label" for="exampleRadios1">
+                                VIP
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                PREMIUM
+                            </label>
+                        </div>
+                        <div class="form-check mt-1">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                BASIC
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group mt-4">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message : "
+                        required></textarea>
+                </div>
+                <center>
+                    <input class="btn btn-primary mb-3 mt-3" type="submit" value="Showresult">
+                    <input class="btn btn-danger mb-3 mt-3" type="reset" value="Reset">
+                </center>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="js/bootstrap.bundle.js"></script>
+    <form action="result.html" method="post">
+        <div class="card-body">
+            <div class="form-group row">
+                <label for="firstName" class="col-sm-2 col-form-label">First Name :</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="ex : Ilham"
+                        required>
+                </div>
+                <label for="lastName" class="col-sm-2 col-form-label">Last Name :</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="ex : Faturachman"
+                        required>
+                </div>
+            </div>
+            <div class="form-group row mt-5">
+                <label for="firstName" class="col-sm-2 col-form-label">Email :</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" name="email"
+                        placeholder="ex : ilhamfatur46@gmail.com" required>
+                </div>
+
+                <div class="col-sm-4">
+                    <label for="firstName" class="col-sm-7 col-form-label">Select The Category :</label>
+                    <div class="form-check mt-1">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
+                            value="option1">
+                        <label class="form-check-label" for="exampleRadios1">
+                            VIP
+                        </label>
+                    </div>
+                    <div class="form-check mt-1">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            PREMIUM
+                        </label>
+                    </div>
+                    <div class="form-check mt-1">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            BASIC
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group row mt-3">
+                <label for="firstName" class="col-sm-2 col-form-label">Phone Number :</label>
+                <div class="col-sm-4">
+                    <input type="number" class="form-control" id="Phone" name="Phone" placeholder="ex: 0812-0230-2342"
+                        required>
+                </div>
+
+                <label for="lastName" class="col-sm-2 col-form-label">Date :</label>
+                <div class="col-sm-4">
+                    <input type="date" class="form-control" id="Date" name="Date" placeholder="ex : Faturachman"
+                        required>
+                </div>
+            </div>
+            <div class="form-group mt-5">
+
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message : "
+                    required></textarea>
+            </div>
+        </div>
+        <center>
+
+            <input class="btn btn-primary mb-3 mt-3" type="submit" value="Submit">
+            <input class="btn btn-danger mb-3 mt-3" type="reset" value="Reset">
+        </center>
+        </div>
+    </form>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
